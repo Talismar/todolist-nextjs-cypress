@@ -12,7 +12,10 @@ type ListItemProps = {
 
 function ListItem({ task, handleDelete, handleUpdateStatus }: ListItemProps) {
   return (
-    <li className="grid grid-cols-[auto_1fr_auto] space-x-4 bg-gray-500 p-4 rounded-lg border-[1px] border-gray-400">
+    <li
+      data-task-id={task.id}
+      className="grid grid-cols-[auto_1fr_auto] space-x-4 bg-gray-500 p-4 rounded-lg border-[1px] border-gray-400"
+    >
       <div className="py-1">
         <Checkbox
           checked={task.status === "DONE"}

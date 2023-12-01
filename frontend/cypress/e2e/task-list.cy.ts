@@ -8,6 +8,7 @@ describe("Task list", () => {
       if (response) {
         const { statusCode, body } = response;
 
+        cy.contains("Dados atualizados!");
         assert.equal(statusCode, 200);
         assert.isArray(body);
 

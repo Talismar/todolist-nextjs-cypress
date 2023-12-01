@@ -14,6 +14,7 @@ function Checkbox({ checked, onClick }: CheckboxProps) {
 
   return (
     <div
+      id="cy-component-checkbox"
       className={`min-w-[17.45px] h-[17.45px] ${style} cursor-pointer rounded-full flex items-center`}
       onClick={onClick}
     >

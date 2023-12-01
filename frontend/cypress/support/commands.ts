@@ -11,8 +11,12 @@
 //
 //
 // -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
-//
+Cypress.Commands.add("login", (email, password) => {});
+Cypress.Commands.add("createTask", (name) => {
+  cy.get('input[type="text"]').type(name);
+  cy.get("button").contains("Criar").click();
+});
+
 //
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
