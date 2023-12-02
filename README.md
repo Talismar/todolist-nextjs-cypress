@@ -426,7 +426,7 @@ cy.focused().clear();
 
 - select
 
-Select an <option> within a <select>.
+Select an option within a select.
 
 **Syntax**
 
