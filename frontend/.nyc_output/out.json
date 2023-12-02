@@ -1,0 +1,300 @@
+{
+  "/home/talismar/Desktop/Programming/Javascript/todolist-nextjs-cypress/frontend/src/app/ToastProvider.tsx": {
+    "path": "/home/talismar/Desktop/Programming/Javascript/todolist-nextjs-cypress/frontend/src/app/ToastProvider.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "ToastProvider",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 24
+          },
+          "end": {
+            "line": 10,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 72
+          },
+          "end": {
+            "line": 17,
+            "column": 1
+          }
+        },
+        "line": 10
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2
+    },
+    "f": {
+      "0": 2
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ba0782e9febd3030d0adce81c332b7ec1eb5c885"
+  },
+  "/home/talismar/Desktop/Programming/Javascript/todolist-nextjs-cypress/frontend/src/app/upload-file/page.tsx": {
+    "path": "/home/talismar/Desktop/Programming/Javascript/todolist-nextjs-cypress/frontend/src/app/upload-file/page.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 32
+        },
+        "end": {
+          "line": 6,
+          "column": 44
+        }
+      },
+      "1": {
+        "start": {
+          "line": 9,
+          "column": 18
+        },
+        "end": {
+          "line": 9,
+          "column": 36
+        }
+      },
+      "2": {
+        "start": {
+          "line": 11,
+          "column": 4
+        },
+        "end": {
+          "line": 15,
+          "column": 5
+        }
+      },
+      "3": {
+        "start": {
+          "line": 12,
+          "column": 19
+        },
+        "end": {
+          "line": 12,
+          "column": 27
+        }
+      },
+      "4": {
+        "start": {
+          "line": 14,
+          "column": 6
+        },
+        "end": {
+          "line": 14,
+          "column": 73
+        }
+      },
+      "5": {
+        "start": {
+          "line": 18,
+          "column": 2
+        },
+        "end": {
+          "line": 30,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "UploadFile",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 9
+          },
+          "end": {
+            "line": 5,
+            "column": 19
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 22
+          },
+          "end": {
+            "line": 31,
+            "column": 1
+          }
+        },
+        "line": 5
+      },
+      "1": {
+        "name": "handleUpload",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 11
+          },
+          "end": {
+            "line": 8,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 62
+          },
+          "end": {
+            "line": 16,
+            "column": 3
+          }
+        },
+        "line": 8
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 4
+          },
+          "end": {
+            "line": 15,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 11,
+              "column": 4
+            },
+            "end": {
+              "line": 15,
+              "column": 5
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 11
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 18
+          },
+          "end": {
+            "line": 14,
+            "column": 48
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 14,
+              "column": 18
+            },
+            "end": {
+              "line": 14,
+              "column": 28
+            }
+          },
+          {
+            "start": {
+              "line": 14,
+              "column": 32
+            },
+            "end": {
+              "line": 14,
+              "column": 48
+            }
+          }
+        ],
+        "line": 14
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 7
+          },
+          "end": {
+            "line": 28,
+            "column": 7
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 24,
+              "column": 7
+            },
+            "end": {
+              "line": 24,
+              "column": 32
+            }
+          },
+          {
+            "start": {
+              "line": 25,
+              "column": 8
+            },
+            "end": {
+              "line": 27,
+              "column": 14
+            }
+          }
+        ],
+        "line": 24
+      }
+    },
+    "s": {
+      "0": 4,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 4
+    },
+    "f": {
+      "0": 4,
+      "1": 1
+    },
+    "b": {
+      "0": [
+        1,
+        0
+      ],
+      "1": [
+        1,
+        0
+      ],
+      "2": [
+        4,
+        2
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "8fa678f6be2df887505f6dba4a7d952bf1b15540"
+  }
+}

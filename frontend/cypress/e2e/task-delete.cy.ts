@@ -12,15 +12,8 @@ describe("Task Delete", () => {
 
     cy.createTask("Task name");
 
-    cy.get("ul")
-      .get("li")
-      .first()
-      .invoke("attr", "data-task-id")
-      .then((_taskId) => {
-        taskId = parseInt(_taskId);
-      });
+    cy.get("ul").get("li").first().find("img").click();
 
-    cy.get(`li[data-task-id="${taskId}"]`).find("img").click();
     cy.get("button").contains("Confirme").click();
 
     cy.wait("@TaskDelete").then(({ response }) => {
@@ -33,7 +26,7 @@ describe("Task Delete", () => {
     });
   });
 
-  it.only("Validar se a mensagem de sucesso (delete) está aparecendo", () => {
+  it("Validar se a mensagem de sucesso (delete) está aparecendo", () => {
     let taskId = 0;
 
     cy.visit("/");

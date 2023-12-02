@@ -8,17 +8,7 @@ describe("Task Toggle status", () => {
 
     cy.createTask("Task name");
 
-    cy.get("ul")
-      .get("li")
-      .first()
-      .invoke("attr", "data-task-id")
-      .then((_taskId) => {
-        const taskId = parseInt(_taskId);
-
-        cy.get(`li[data-task-id="${taskId}"]`)
-          .get("#cy-component-checkbox")
-          .click();
-        cy.contains("Tarefa atualizada com sucesso!").should("be.visible");
-      });
+    cy.get("ul").get("li").first().get("#cy-component-checkbox").click();
+    cy.contains("Tarefa atualizada com sucesso!").should("be.visible");
   });
 });

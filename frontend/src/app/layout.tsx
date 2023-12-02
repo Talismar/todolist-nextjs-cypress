@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
 import ToastProvider from "./ToastProvider";
-
-const inter = Inter({ subsets: ["latin"], weight: ["400", "700"] });
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body
+      // className={inter.className}
+      >
         <ToastProvider>{children}</ToastProvider>
       </body>
     </html>

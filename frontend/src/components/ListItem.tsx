@@ -18,6 +18,7 @@ function ListItem({ task, handleDelete, handleUpdateStatus }: ListItemProps) {
     >
       <div className="py-1">
         <Checkbox
+          id="cy-component-checkbox"
           checked={task.status === "DONE"}
           onClick={() => handleUpdateStatus(task.id)}
         />

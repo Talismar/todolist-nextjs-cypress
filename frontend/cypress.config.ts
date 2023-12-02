@@ -8,6 +8,7 @@ export default defineConfig({
     experimentalInteractiveRunEvents: true,
     baseUrl: "http://localhost:3000",
     setupNodeEvents(on, config) {
+      require("@cypress/code-coverage/task")(on, config);
       const newConfig = dotenv(config);
       const { BACKEND_URL, USER_TOKEN_FOR_RESET_DB } = newConfig.env;
 

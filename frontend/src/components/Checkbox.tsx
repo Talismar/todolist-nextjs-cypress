@@ -4,17 +4,18 @@ import Image from "next/image";
 
 type CheckboxProps = {
   checked: boolean;
+  id: string;
   onClick(): void;
 };
 
-function Checkbox({ checked, onClick }: CheckboxProps) {
+function Checkbox({ checked, id, onClick }: CheckboxProps) {
   const style = checked
     ? "bg-purpleDark hover:bg-purple"
     : "box-border border-[1.5px] border-blue hover:bg-[#0C1C26]";
 
   return (
     <div
-      id="cy-component-checkbox"
+      id={id}
       className={`min-w-[17.45px] h-[17.45px] ${style} cursor-pointer rounded-full flex items-center`}
       onClick={onClick}
     >
