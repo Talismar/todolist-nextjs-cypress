@@ -22,8 +22,11 @@ O **Cypress** é uma ferramenta para testes automatizados semelhante ao Selenium
 
 ### Principais Features
 
-- Tempo de busca
-- Rápido
+- Viagem no tempo (Time Travel)
+- Espera automática
+- Suporte a vários navegadores
+- Controla o tráfico de rede
+- Debug
 
 A arquitetura do **Cypress** é dividida em três principais componentes: Test Runner, Cypress Server e Browser.
 
