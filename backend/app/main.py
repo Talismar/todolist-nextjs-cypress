@@ -1,9 +1,16 @@
+import sys
+import os
+ 
+current = os.path.dirname(os.path.realpath(__file__))
+parent = os.path.dirname(current)
+sys.path.append(parent)
+
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from .configuration import configuration
-from .database import database
-from .routes import router as task_router
+from app.configuration import configuration
+from app.database import database
+from app.routes import router as task_router
 
 app = FastAPI(title="ToDoList - API", description="Um api para gerenciar tarefas.")
 
